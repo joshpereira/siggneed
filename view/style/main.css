@@ -1,0 +1,164 @@
+body{
+	background: transparent url(background.png) top repeat;
+	font-size: 11px;
+	font-family: arial;
+	padding:0;
+	margin:0;
+}
+
+img {
+	border:0;
+}
+
+a:link, a:hover, a:visited {
+	text-decoration: none;
+	color:#222222;
+}
+
+#header {
+	background: transparent url(header.png) top center no-repeat;
+	text-align:center;
+	height:77px;
+	width:100%;
+}
+
+#logo {
+	margin-left:-640px;
+}
+
+#copy {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+	color:#111111;
+	width:900px;
+	clear:both;
+}
+
+#copy .right {
+	float:right;
+}
+
+#copy .left {
+	margin-top:10px;
+	display:block;
+	float:left;
+}
+
+#ads {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-30px;
+	text-align: right;
+	height:60px;
+	width:920px;
+}
+
+#ads2 {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	text-align:right;
+	width:500px;
+}
+
+#holder {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+	width:925px;
+}
+
+#holder_left {
+	width:185px;
+	float:left;
+}
+
+#holder_right {
+	float:right;
+}
+
+#news {
+	background: transparent url(news.png) top center no-repeat;
+	padding-top:45px;
+	height:170px;
+	width:184px;
+}
+
+#stats {
+	background: transparent url(stats.png) top center no-repeat;
+	padding-top:45px;
+	height:180px;
+	width:184px;
+}
+
+#news div {
+	margin-left:20px;
+	margin-top:14px;
+	margin-right:20px;
+}
+
+#stats div {
+	border-bottom:1px dotted #999999;
+	margin-left:20px;
+	margin-right:23px;
+	padding:8px;
+}
+
+#menu {
+	margin-left:50px;
+	padding-top:1px;
+}
+
+#content {
+	background: transparent url(content.jpg) top center no-repeat;
+	margin-top: -5px;
+	width: 740px;
+	height: 634px;
+}
+#adright {
+	float: right;
+}
+	
+#info-1, #info-2, #info-3, #info-4{
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:20px;
+}
+
+#info-3 {
+	height:340px;
+	margin-left:20px;
+	overflow:auto;
+	width:630px;
+}
+
+#email_done, #sig_done {
+	margin-top: 10px;
+}
+
+#email_done input, #sig_done input, #custom_done input{
+	margin-top:5px;
+	width:500px;
+}
+
+#contactForm div {
+	margin-left: 150px;
+	padding:2px;
+}
+
+#contact_status {
+	position:relative;
+	width:180px;
+	left:165px;
+	top:-28px;
+}
+
+.color {
+	border:1px solid #999999;
+}
+
+fieldset {
+	border: 1px dotted #999999;
+	margin-bottom: 10px;
+}
